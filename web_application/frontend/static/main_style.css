@@ -5,6 +5,34 @@ body{
 
 }
 
+h1{
+text-align: center;
+font-size: 28px;
+font-weight: bold;
+margin-bottom: 15px;
+margin-top: 15px;
+}
+
+h2{
+text-align: center;
+font-size: 16px;
+font-weight: bold;
+border: 1px solid black;
+margin-bottom: 15px;
+margin-top: 15px;
+}
+.text-container img{
+margin-bottom: 15px;
+
+}
+
+.main-intro{
+width: 80%;
+margin: auto;
+margin-top:15px;
+margin-bottom:15px;
+}
+
 
 #body-content{
  min-height: 85vh;
@@ -62,14 +90,55 @@ margin-top: 20px;
 }
 
 .text-container h2{
-padding-top: 15px;
-padding-bottom: 15px;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
 .text-container h1{
 padding-top: 0px;
 padding-bottom: 10px;
 }
+
+
+.container1 {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 30px;
+  left: 5%;
+  padding-right: 5%;
+
+}
+
+.top-left p {
+  background-color: rgba(0,0,0,0.6);
+  padding:10px;
+}
+
+.three-names{
+margin-top: 20%;
+}
+
+.three-names .col-sm{
+text-align: center;
+font-size: 36px;
+font-weight: bold;
+}
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 700px) {
 
@@ -80,4 +149,22 @@ margin-top:20px;
 
 }
 
+.three-names{
+margin-top: 5%;
 }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+.container1{
+min-height: 900px !important;
+}
+
+.three-names{
+margin-top: 5%;
+}
+
+}
+
+
